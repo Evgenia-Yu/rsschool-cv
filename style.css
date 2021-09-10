@@ -18,21 +18,19 @@ body {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 header {
     padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 50%; */
     background-color: rgb(250, 216, 173);
 }
 
 h1 {
+    margin-left: 100px;
     font-family: BebasNeue-Regular;
-    /* width: 50px; */
+    font-size: 50px;
+    align-items: center;
 }
 
 h2 {
@@ -68,12 +66,17 @@ footer {
 }
 
 .avatar {
-    width: 200px;
-    height: 300px;
+    width: 260px;
+    height: 350px;
     border: 2px solid #b85e3d;
 }
 
 .logo {
     width: 200px;
     height: 300px;
+}
+
+.logo1 {
+    width: 100px;
+    height: 100px;
 }
