@@ -2,32 +2,75 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: AlumniSans-Regular;
+    src: url("fonts/static/AlumniSans-Regular.ttf");
+}
+
 body {
-    background-color: antiquewhite;
+    background-image: url(img/Brick-wall-background-texture_3840x2160.jpg);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 header {
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    /* width: 50%; */
+    background-color: rgb(250, 216, 173);
+}
+
+h1 {
+    font-family: BebasNeue-Regular;
+    /* width: 50px; */
+}
+
+h2 {
+    font-family: BebasNeue-Regular;
+}
+
+article {
+    padding: 50px;
+}
+
+.text {
+    font-family: AlumniSans-Regular;
+    font-size: 25px;
+}
+
+hr {
+    size: 2px;
+    color: #b85e3d;
 }
 
 footer {
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
+
+    background-color: antiquewhite;
 }
 
 .avatar {
     width: 200px;
     height: 300px;
-    border: 2px solid brown;
+    border: 2px solid #b85e3d;
 }
 
 .logo {
